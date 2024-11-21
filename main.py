@@ -9,7 +9,7 @@ def main():
         print("4. Поиск книги")
         print("5. Изменить статус книги")
         print("6. Выйти")
-        choice = input("Выберите действие: ")
+        choice = input("Выберите действие (1-6): ")
 
         if choice == "1":
             manager.show_all_books()
